@@ -23,6 +23,7 @@ app.use( express.json() );
 
 // Habilitar carpeta publica
 app.use( express.static('uploads') );
+app.use( express.static('public') );
 
 
 // Rutas de la app
